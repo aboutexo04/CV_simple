@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.env
+.env.*
+env/
+.venv/
+ENV/
+
+# PyInstaller
+*.spec
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs and editors
+.vscode/
+.idea/
+.history/
+
+# Devcontainer
+.devcontainer/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Model, data and large binaries
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.npz
+models/
+model/
+weights/
+data/
+datasets/
+raw_data/
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets / keys
+*.pem
+*.key
+secrets/
+.env.local
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.egg
+*.egg-info
+*.retry
