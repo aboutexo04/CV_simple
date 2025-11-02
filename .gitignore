@@ -73,6 +73,14 @@ raw_data/
 *.tar
 *.tar.gz
 
+# Experiment results and outputs
+experiments/
+exp_*/
+submission_*.csv
+fold_results_*.csv
+results/
+outputs/
+
 # Secrets / keys
 *.pem
 *.key
